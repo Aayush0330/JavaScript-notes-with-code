@@ -55,7 +55,7 @@ console.log(typeof anotherId);
  console.log(myYtname);
  console.log(myYtname2);
  
-// for heep 
+// for heep  it changes the value for both 
 
 let obj = {
     name: "aayush",
