@@ -42,3 +42,28 @@ console.log(typeof anotherId);
 //null datatype object
 
 // bignumber datatype undefined
+
+
+// Stack(primitive),
+// Heep(non primitive) memory
+
+ let myYtname="aayush"                                                  // it doesn't change value it send a copy of first value
+
+ let myYtname2= myYtname
+ myYtname2 = "aayush chandak"
+
+ console.log(myYtname);
+ console.log(myYtname2);
+ 
+// for heep 
+
+let obj = {
+    name: "aayush",
+    age: 22
+}
+
+let obj2 = obj 
+
+obj2.name = "aayush chandak"
+console.log(obj);
+console.log(obj2);
