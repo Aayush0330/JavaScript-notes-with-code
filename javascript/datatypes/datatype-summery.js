@@ -45,7 +45,7 @@ console.log(typeof anotherId);
 
 
 // Stack(primitive),
-// Heep(non primitive) memory
+// Heap(non primitive) memory
 
  let myYtname="aayush"                                                  // it doesn't change value it send a copy of first value
 
@@ -55,7 +55,7 @@ console.log(typeof anotherId);
  console.log(myYtname);
  console.log(myYtname2);
  
-// for heep  it changes the value for both 
+// for heep  it changes the orignal value for both 
 
 let obj = {
     name: "aayush",
